@@ -1,0 +1,672 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Marcellus&display=swap");
+
+ul,
+p {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* * {
+  outline: 5px solid red;
+} */
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  font-family: "manrope", sans-serif;
+  overflow-x: hidden;
+}
+
+:root {
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #de968d;
+  --primary--bg-color: #f2d5d1;
+}
+
+img {
+  background: no-repeat center/cover;
+}
+
+.title1 {
+  color: var(--secondary-text-color);
+  font-size: 20px;
+  letter-spacing: 3.5px;
+}
+
+.container {
+  max-width: 1407px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.custom-container1220 {
+  max-width: 1244px !important;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* sub-header section */
+
+.sub-hdr-container {
+  max-width: 910px;
+}
+
+.sub-hdr {
+  background-color: #27252a;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-logo,
+.mail-logo,
+.location-logo {
+  padding: 15px 8px 15px 10px;
+  margin-left: 20px;
+}
+
+.location-info {
+  margin-right: 74px;
+}
+
+.btn a {
+  padding: 19px 10px 19px 22px;
+  color: white !important;
+  background: var(--secondary-text-color);
+  transform: translate(0, 0);
+}
+
+.btn:hover {
+  opacity: 0.5;
+  transition: 0.5s linear;
+}
+.btn > img:hover {
+  transform: translate(5px, -10px);
+}
+.btn > svg:hover {
+  transform: translate(5px, -10px);
+}
+
+/* Navbar Section */
+
+.navbar-container {
+  max-width: 1818px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar {
+  padding: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(253, 239, 239, 0.348),
+    rgba(255, 255, 255, 0)
+  ) !important;
+}
+
+.nav-btn a {
+  margin-right: 10px;
+  padding: 15px 10px;
+}
+
+.nav-btn:last-child a {
+  margin: 0 !important;
+}
+
+.nav-btn a:last-child {
+  margin-right: 33px;
+}
+
+.nav-logo {
+  margin-left: 34px;
+}
+
+.nav-link {
+  color: var(--primary-text-color);
+  padding: 0 !important;
+  text-transform: uppercase;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-link.active {
+  color: var(--secondary-text-color) !important;
+}
+
+.navbar-collapse ul {
+  margin-right: 256px !important;
+}
+
+/* <!-- Treatment section --> */
+
+.treatment-section {
+  padding: 100px 0 100px;
+  background: url("../assets/treatment-bg.png") no-repeat center/cover;
+}
+
+.card2 {
+  background: url("../assets/TREATMENT-2.png") no-repeat center/cover;
+  color: #ffffff;
+}
+
+.treatment-section .title1 {
+  margin: 0 !important;
+}
+
+.treatment-section .row {
+  max-width: 1216px;
+  padding-top: 30px;
+}
+
+.treatment-section .row .card {
+  gap: 10px;
+  max-width: 270px;
+  max-height: 244px;
+}
+
+.treatment-section .row .arrow {
+  padding: 20px 20px 10px 210px;
+}
+
+.treatment-section .row .card-details {
+  padding: 10px 129px 20px 20px;
+}
+
+.treatment-section .row .card-img {
+  padding-left: 20px;
+}
+
+.treatment-section .opening-hours {
+  max-width: 1216px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  bottom: -60px;
+}
+
+.logo-opening-hours,
+.timing {
+  background: url("../assets/gap-line-opening-hours.png") no-repeat center/cover;
+  height: 124px;
+  width: 276px;
+}
+
+/* About Spa section  */
+
+.about-spa {
+  padding: 100px;
+}
+
+.about-spa-section .about-spa-cntn .title1 {
+  margin: 0 !important;
+}
+
+/* <!-- Special Treatment --> */
+
+.special-treatment {
+  padding: 100px;
+}
+
+/* Easy Steps How It Works */
+
+.easy-step {
+  padding: 100px 0;
+  background: url("../assets/easy-step-bg.png") no-repeat center/cover;
+}
+
+/* choose our Pricing Plan */
+
+.pricing-plan-section {
+  padding: 150px 0;
+}
+
+/* Testimonial Section */
+
+.testimonial-section {
+  padding: 150px 0px;
+  background: url("../assets/testimonial-bg.png") no-repeat center/cover;
+  position: relative;
+}
+
+.banner-form {
+  border-radius: 20px;
+  background-color: var(--primary-text-color);
+}
+
+.banner-form input,
+.banner-form textarea {
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--secondary-text-color);
+}
+.banner-form {
+  padding: 34px 39px 40px 19px;
+}
+
+.banner-form .form-title {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 47px;
+  font-family: "Inter", sans-serif;
+  color: var(--primary-color);
+}
+
+.banner-form input[type="text"],
+.banner-form input[type="email"],
+.banner-form input[type="number"] {
+  font-size: 18px;
+  padding: 14px 15px;
+}
+
+.banner-form textarea {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  padding: 16px 15px;
+  height: 106px;
+  margin-bottom: 30px;
+  resize: none;
+}
+.banner-form input[type="email"] {
+  margin: 20px 0;
+}
+
+.banner-form input[type="submit"] {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.testimonial-gallery {
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+}
+
+.testimonial-card1 {
+  background: url("../assets/testimonial-card1.png");
+  padding: 10px 40px;
+}
+
+.testimonial-card2 {
+  background: url("../assets/testimonial-card2.png");
+  padding: 10px 40px;
+}
+
+.testimonial-card {
+  position: absolute;
+  bottom: -90px;
+  left: 252px;
+  right: 252px;
+  z-index: 999;
+}
+
+/* Specialist Section */
+
+.specialist-section {
+  padding: 150px 0;
+}
+
+/* footer section */
+
+.footer-section {
+  padding: 105px 0 0 0;
+  background: #27252a;
+  color: white;
+}
+
+.footer-section a {
+  color: white;
+}
+.footer-section .ftr-para {
+  max-width: 326px;
+  margin: 20px 0;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  color: #949197;
+}
+.footer-section .location-img,
+.call-image {
+  margin-right: 20px;
+}
+
+.footer-cntn a {
+  margin-bottom: 20px;
+}
+
+.footer-social-links .links a {
+  margin: 0 12.5px !important;
+  padding: 0;
+}
+
+.footer-hdr-links1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: "Marcellous", sans-serif;
+}
+.footer-links {
+  margin-bottom: 20px;
+  font-family: "Manrope", sans-serif;
+}
+.footer-hdr-links2 {
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  margin-bottom: 20px;
+}
+.ftr-email {
+  padding: 10px;
+  width: 100%;
+  margin: 20px 0;
+  font-family: "Manrope", sans-serif;
+}
+
+.sub-bnt {
+  text-align: center;
+  background: var(--secondary-text-color);
+  padding: 20px 100px;
+  font-family: "Manrope", sans-serif;
+  cursor: pointer;
+}
+/***********************************Footer-btm**************************/
+.footer-btm {
+  padding-top: 80px;
+}
+.footer-btm::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  /* bottom: 0; */
+  left: 0;
+  right: 0;
+  background: white !important;
+}
+
+/* *=========================================================
+                 Membership page-4 
+ ===========================================================*/
+
+.membership-banner-section {
+  height: 100vh;
+  background: url(../assets/SERVICE-banner-bg.png) no-repeat center/cover;
+}
+
+.card-text {
+  padding: 62px 0;
+}
+
+.card .col-md-4 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.right-img1 {
+  right: 40px;
+}
+
+.right-img2 {
+  max-width: 600px;
+
+  bottom: 184px;
+  right: 38px;
+  object-fit: cover;
+}
+
+/* <!-- Spa packages section */
+
+.spa-packages-section {
+  padding: 100px 0;
+  background: url("../assets/pricing-bg.png");
+}
+
+.pricing-desc {
+  max-width: 502px;
+}
+
+.pricing-card {
+  /* max-width: 542px; */
+  padding: 60px 20px 93px 20px;
+}
+
+.pricing-header {
+  display: flex;
+
+  gap: 85px;
+}
+
+.pricing-hdr-cntn {
+}
+
+.price {
+  color: var(--secondary-text-color);
+}
+
+.popular-badge {
+  color: var(--secondary-text-color);
+  border: 1px solid var(--secondary-text-color);
+  padding: 10px 43px;
+}
+
+/* Membership Get In Touch Section */
+
+.learn-more-section {
+  background: url("../assets/membership-video-player-section-bottom.png")
+    no-repeat center/cover;
+  padding: 250px 250px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*=========================================================
+                 Gift-card page-5 
+ ===========================================================*/
+
+/*===================Banner  section=========================== */
+
+.gift-banner-section {
+  height: 100vh;
+  background: url("../assets/giftcard-assets/giftcard-banner-bg.png") no-repeat
+    center/cover;
+}
+
+.gift-hdr {
+  font-size: 30px;
+}
+
+.gift-cntn {
+  font-family: "mercellus", sans-serif;
+  font-size: 48px;
+}
+
+/* Explore -Gift card section */
+
+.explore-gift-section {
+  padding: 100px 0;
+}
+
+.explore-gift-section .title1 {
+  margin: 0 !important;
+}
+
+.gift-card1 {
+  background: url("../assets/giftcard-assets/giftcard-card-bg.png") no-repeat
+    center/cover;
+  padding: 10px;
+  gap: 10px;
+  max-width: 270px;
+  max-height: 244px;
+  margin-top: 20px;
+}
+
+/* GIFT CARD VIDEO SECTION */
+
+.video-section {
+  background: url("../assets/giftcard-assets/video-play.png") no-repeat
+    center/cover;
+  min-height: 800px;
+}
+
+/* GIFT CARD FOOTER SECTION */
+
+.footer {
+  padding: 100px 0;
+  /* background-color: #27252A; */
+}
+
+/*  BUY-NOW GIFT CARD SECTION */
+
+.buy-now-section {
+  padding: 100px 0;
+  background: url("../assets/buy-now-bg.png");
+}
+
+/* ==============================================================
+                          Medeia Quaries
+=============================================================== */
+
+@media screen and (max-width: 1300px) {
+  .navbar-collapse ul {
+    margin-right: 50px !important;
+  }
+
+  .pricing-header {
+    display: flex;
+
+    gap: 200px;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .sub-hdr p {
+    font-size: 9px;
+  }
+
+  .location-info {
+    margin-right: 0px;
+  }
+
+  .banner-cntn h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .banner-cntn p {
+    text-align: center;
+  }
+
+  .banner-cntn {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+
+  .footer-section .row .col-3 {
+    flex-direction: column !important;
+  }
+  .footer-section .col-3 {
+    width: 100%;
+    text-align: center;
+  }
+  .footer-section .ftr-para {
+    margin: 0 auto;
+  }
+
+  .footer-cntn a,
+  .footer-social-links {
+    justify-content: center !important;
+    margin: 20px 0;
+  }
+
+  .pricing-header {
+    display: flex;
+
+    gap: 111px;
+  }
+
+  .learn-more-section {
+    padding: 150px 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title1,
+  .title3 {
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+  }
+  .title2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .location {
+    margin-right: 15px;
+  }
+
+  .testimonial-gallery {
+    top: -90px;
+  }
+
+  .right-img1 {
+    height: auto;
+    width: 200px;
+  }
+
+  .popular-badge {
+    padding-right: 0;
+  }
+
+  .learn-more-section {
+    padding: 100px 100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sub-hdr p {
+    font-size: 5px;
+  }
+
+  .pricing-desc {
+    text-wrap: wrap;
+  }
+
+  .pricing-header {
+    display: flex;
+
+    gap: 85px;
+  }
+
+  .pricing-card {
+    padding-right: 0;
+    text-wrap: wrap;
+  }
+
+   .learn-more-section {
+    padding: 50px 25px;
+  }
+}
