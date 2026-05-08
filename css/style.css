@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 :root {
   --primary-color: #de968d;
@@ -151,12 +151,12 @@ p {
 .banner-cntn {
   max-width: 1024px !important;
 }
-.banner-section .title2  {
+.banner-section .title2 {
   color: var(--primary-color);
   font-family: "Manrope", sans-serif;
 }
 
-.banner-section .title1  {
+.banner-section .title1 {
   max-width: 928px !important;
   color: white;
   font-family: "Marcellus", sans-serif;
@@ -752,9 +752,8 @@ p {
   object-fit: cover;
 }
 
-.date-input{
+.date-input {
   padding-right: 0;
- 
 }
 
 .test-mid-card2 {
@@ -910,8 +909,6 @@ p {
   transition: 0.5s linear;
 }
 
-
-
 /****************************Footer-section******************/
 
 .footer-section {
@@ -986,8 +983,6 @@ p {
   right: 0;
   background: white !important;
 }
-
-
 
 /*********************************************Media queries*******************************/
 @media screen and (max-width: 992px) {
@@ -1193,12 +1188,16 @@ p {
     margin-left: 30px;
   }
   .explore-section .leaf-top {
-    left: 50%;
+    left: 0%;
     width: 40%;
   }
   .explore-section .leaf-btm {
     left: 0;
     width: 50%;
+  }
+
+  .explore-section-items {
+    margin-left: 0 !important;
   }
 }
 
@@ -1529,7 +1528,6 @@ p {
     margin: 0 50px;
     padding: 0px 10px;
   }
-  
 
   .testimonial-mid-card .bnt-text {
     font-size: 10px;
@@ -1612,7 +1610,7 @@ p {
     text-align: center;
   }
 
-  .banner-section{
+  .banner-section {
     padding: 20px 20px 20px 20px;
   }
 }
