@@ -1288,8 +1288,10 @@ p {
   .explore-section .common-sub-hdr {
     font-size: 40px;
   }
-  .explore-section .leaf-top {
-    right: -40px;
+  .explore-section-image  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
   .explore-section .leaf-btm {
     bottom: -17px;
