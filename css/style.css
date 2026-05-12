@@ -1288,14 +1288,18 @@ p {
   .explore-section .common-sub-hdr {
     font-size: 40px;
   }
-  .explore-section-image  {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .explore-section-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .leaf-top {
+    right: 13px;
   }
   .explore-section .leaf-btm {
     bottom: -17px;
-    left: 10px;
+    left: 0px;
   }
   .explore-section .explore-section-items1 {
     margin: 0;
