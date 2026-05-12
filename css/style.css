@@ -831,7 +831,7 @@ p {
 /*********************************Blog-section*********************/
 
 .blog-section {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 
 .blog-section .blog-cntn {
@@ -990,13 +990,13 @@ p {
     text-align: center;
   }
   .offcanvas {
-    padding-top: 200px;
+    padding-top: 100px;
 
     flex-direction: column;
   }
 
   .offcanvas.show {
-    background-color: rgba(255, 255, 255, 0.1) !important;
+    background-color: var(--primary-color) !important;
   }
 
   .navbar-toggler {
@@ -1314,7 +1314,7 @@ p {
   }
 
   .membership-cntn-para {
-    margin: 101px 0 !important;
+    margin: 41px 0 !important;
   }
 }
 @media (max-width: 768px) {
@@ -1618,5 +1618,14 @@ p {
 
   .banner-section {
     padding: 20px 20px 20px 20px;
+  }
+  .blog-footer {
+    padding: 20px 0;
+  }
+
+  .contact-section .bnt {
+    outline: 1px solid white;
+    margin-left: 0px;
+    margin-top: 10px;
   }
 }
